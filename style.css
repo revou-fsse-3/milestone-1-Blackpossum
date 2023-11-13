@@ -144,9 +144,11 @@ a {
 
 /* Banner style */
 .hero-banner {
-  display: flex;
+  /* display: flex;
   justify-content: start;
-  align-items: center;
+  align-items: center; */
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
   width: auto;
   height: 1000px;
   background-image: url(assets/avatar4.jpg);
@@ -154,11 +156,15 @@ a {
   background-size: cover;
 }
 .grid-container {
+  grid-row: 4/5;
   margin: 20px;
   width: 800px;
   display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+.description {
   font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
   color: white;
   text-shadow: 3px 1px 3px black;
-  grid-template-rows: repeat(2, 1fr);
 }
