@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px) {
+  .pricing-card {
+    max-width: 93vw;
+  }
+  .pricing-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .pricing-card {
+    width: 600px;
+  }
+  .pricing-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
