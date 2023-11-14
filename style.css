@@ -26,7 +26,7 @@ nav {
   margin: 0% auto;
   padding-left: 10px;
   overflow: hidden;
-  background-color: #e0e0e0;
+  background-color: #e0e0e000;
   /* Dropdown style */
   .navhead {
     display: flex;
@@ -75,14 +75,12 @@ nav {
         height: 5px;
         &:hover {
           display: block;
-          color: white;
         }
       }
     }
 
     /* dropdown on hover */
     &:hover .drop-content {
-      color: white;
       padding: 10px;
       border-radius: 10px;
       display: block;
@@ -92,7 +90,6 @@ nav {
       gap: 10px;
     }
     .list-container:hover {
-      color: white;
       border-bottom: 3px solid red;
     }
   }
@@ -153,24 +150,65 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.grid-container {
-  margin: 20px;
-  width: 800px;
-  height: 500px;
-  display: grid;
-  grid-template-rows: 400px 200px;
-}
 
-#company-logo {
-  grid-auto-rows: 2;
-}
-#heading {
-  grid-auto-rows: 3;
+.highlight {
+  color: #a2c11c;
+  background-color: black;
 }
 
 .description {
+  display: flex;
+  width: 80%;
+  height: 40%;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: Tahoma, Geneva, Verdana, sans-serif;
   font-size: 40px;
   color: white;
   text-shadow: 3px 1px 3px black;
+}
+
+#teaser-direct {
+  width: 200px;
+  height: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: #a2c11c;
+  background-color: #283739;
+  border: 4px solid #a2c11c;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+#teaser-direct :hover {
+  background-color: #a2c11c;
+  color: #283739;
+}
+
+@keyframes slideIn {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+#teaser-direct:hover {
+  background-size: 200% 100%;
+  background-image: linear-gradient(to top, green, #283739);
+  animation: slideIn 1s forwards;
+}
+
+/* section style */
+
+#about {
+  display: grid;
+  grid-template-columns: 1fr 1000px 1fr;
+  grid-template-areas: " a b c";
+}
+.wrapper-section {
+  grid-area: b;
+  text-align: center;
+  padding: 20px;
+  border: 4px solid red;
 }
