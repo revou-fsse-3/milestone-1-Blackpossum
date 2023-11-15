@@ -27,19 +27,20 @@
 }
 
 /* Navbar style */
-nav {
+.navbar {
   display: flex;
   align-items: center;
   margin: 0% auto;
   padding-left: 10px;
   overflow: hidden;
-  background-color: #e0e0e000;
+  background-color: var(--light-bg);
   /* Dropdown style */
   .navhead {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0);
   }
   .dropdown {
     float: left;
@@ -428,8 +429,36 @@ a {
   border: 5px solid orange;
 }
 #our-team {
+  background-color: var(--secondary-bg);
   border: 5px solid aqua;
+  background-image: url(assets/Design\ community-bro.svg);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
 }
+
+.team-card {
+  display: flex;
+  background-color: black;
+  color: beige;
+  flex-direction: column-reverse;
+  width: 250px;
+  height: auto;
+  gap: 10px;
+  padding: 30px;
+  box-shadow: 0px 8px 5px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.team-card > p {
+  padding-bottom: 4px;
+  margin: 0%;
+  border-bottom: 0.1rem solid black;
+}
+.team-card > img {
+  width: 100%;
+  height: auto;
+}
+
 #pricingplan {
   /* not yet coded */
 }
