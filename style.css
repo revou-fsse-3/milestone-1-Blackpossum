@@ -155,6 +155,7 @@ a {
   width: 100%;
   height: 1000px;
   background-image: url(assets/avatar4.webp);
+
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -537,6 +538,18 @@ a {
   gap: 5px;
   display: flex;
   flex-direction: column;
+}
+.team-card {
+  display: flex;
+  background-color: beige;
+  color: black;
+  flex-direction: column-reverse;
+  width: 250px;
+  height: auto;
+  gap: 10px;
+  padding: 30px;
+  box-shadow: 0px 8px 5px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 .team-card > p {
   padding-bottom: 4px;
