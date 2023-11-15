@@ -207,8 +207,11 @@ a {
   background-image: linear-gradient(to top, green, #283739);
   animation: slideIn 1s forwards;
 }
+/* ************** */
 
 /* section style */
+
+/* ************* */
 /* about article */
 #about {
   margin-top: 50px;
