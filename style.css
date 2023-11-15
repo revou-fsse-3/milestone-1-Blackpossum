@@ -154,7 +154,8 @@ a {
   align-items: center;
   width: 100%;
   height: 1000px;
-  background-image: url(assets/avatar4.jpg);
+  background-image: url(assets/avatar4.webp);
+
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -206,8 +207,11 @@ a {
   background-image: linear-gradient(to top, green, #283739);
   animation: slideIn 1s forwards;
 }
+/* ************** */
 
 /* section style */
+
+/* ************* */
 /* about article */
 #about {
   margin-top: 50px;
@@ -426,24 +430,125 @@ a {
 }
 /* section qualification */
 #qualification {
-  border: 5px solid orange;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  background-image: url(assets/Classroom-bro.svg);
+  background-repeat: no-repeat;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 95px 95px 450px;
+  grid-template-areas:
+    "a a "
+    ". b ";
 }
+.qualy-heading {
+  grid-area: a;
+  color: var(--secondary-bg);
+  text-shadow: 3px 2px 3px var(--accent-color);
+  font-family: --secondFont;
+  font-size: 40px;
+}
+.qualification-wrapper {
+  width: 90%;
+  height: 400px;
+  padding-right: 20px;
+  border-radius: 25px;
+  grid-area: b;
+  display: grid;
+  grid-template-rows: repeat(3, fr);
+}
+.qualy-card {
+  font-family: --secondFont;
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  color: whitesmoke;
+  border-radius: 25px;
+  background-color: rgb(40, 43, 57);
+  border: 2px solid var(--light-bg);
+  gap: 40px;
+  padding: 10px;
+}
+.description-card {
+  text-align: start;
+  border-left: 4px solid var(--accent-color);
+  padding: 10px;
+}
+.description-card > h2 {
+  color: yellow;
+}
+
+/* our team Section */
 #our-team {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 800px;
+  grid-template-areas:
+    ". b ."
+    ". c c";
   background-color: var(--secondary-bg);
-  border: 5px solid aqua;
   background-image: url(assets/Design\ community-bro.svg);
   background-size: 500px;
   background-repeat: no-repeat;
   background-position: 0 50%;
 }
 
+#heading-container {
+  display: flex;
+  grid-area: b;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.team-headings {
+  color: white;
+  text-decoration: underline var(--accent-color);
+  font-family: --secondFont;
+  text-shadow: 3px 1px 3px rgb(29, 29, 67);
+  font-size: 55px;
+}
+
+.Team-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  grid-area: c;
+  width: 90%;
+  padding-top: 50px;
+}
+.team-card {
+  display: flex;
+  background-color: white;
+  color: black;
+  flex-direction: column;
+  width: 200px;
+  height: 50%;
+  gap: 10px;
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0px 8px 5px 0 rgba(0, 0, 0, 0.5);
+  border-color: 5px solid white;
+  border-radius: 10px;
+}
+.team-card > .profile > p {
+  font-size: 50px;
+}
+.profile-card {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
 .team-card {
   display: flex;
   background-color: beige;
   color: black;
-  flex-direction: column-reverse;
-  width: 250px;
-  height: auto;
+  flex-direction: column;
+  width: 200px;
+  height: 60%;
   gap: 10px;
   padding: 30px;
   box-shadow: 0px 8px 5px 0 rgba(0, 0, 0, 0.5);
@@ -458,9 +563,9 @@ a {
   width: 100%;
   height: auto;
 }
-
-#pricingplan {
-  /* not yet coded */
+.media-container {
+  padding-top: 10px;
+  height: 40px;
 }
 
 /* Pricing Section Styles */
