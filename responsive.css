@@ -17,3 +17,29 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 1031px) {
+  .navhead {
+    justify-content: center;
+  }
+  .navlist {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .list-nav {
+  }
+}
+.member {
+  display: flex;
+}
+#hamburger {
+  display: block;
+  padding-right: 30px;
+  cursor: pointer;
+}
