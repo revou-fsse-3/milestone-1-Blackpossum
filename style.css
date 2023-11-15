@@ -546,9 +546,9 @@ a {
   display: flex;
   background-color: beige;
   color: black;
-  flex-direction: column-reverse;
-  width: 250px;
-  height: auto;
+  flex-direction: column;
+  width: 200px;
+  height: 60%;
   gap: 10px;
   padding: 30px;
   box-shadow: 0px 8px 5px 0 rgba(0, 0, 0, 0.5);
