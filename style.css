@@ -439,8 +439,8 @@ a {
 
 .team-card {
   display: flex;
-  background-color: black;
-  color: beige;
+  background-color: beige;
+  color: black;
   flex-direction: column-reverse;
   width: 250px;
   height: auto;
