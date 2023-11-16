@@ -1,4 +1,17 @@
 @media screen and (max-width: 600px) {
+  #line {
+    width: 300px;
+    font-size: smaller;
+  }
+  .hero-banner > .description {
+    display: none;
+  }
+  #heading {
+    font-size: medium;
+  }
+  .section-headings {
+    font-size: medium;
+  }
   .pricing-card {
     max-width: 93vw;
   }
@@ -6,18 +19,89 @@
     flex-wrap: wrap;
     flex-direction: column;
   }
+  .grid-container2 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 250px;
+    gap: 10px;
+    grid-template-areas:
+      "e"
+      "a"
+      "b"
+      "c"
+      "d";
+  }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 984px) {
+  #about {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "a"
+      "."
+      "b"
+      "."
+      "c";
+  }
+  article {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #about-des {
+    display: flex;
+  }
+  .section-img {
+    width: 350px;
+  }
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  #about-card1,
+  #about-card2 {
+    width: 80%;
+    height: 80%;
+  }
+
+  #pricingplan {
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px auto;
+    grid-template-areas:
+      "a a"
+      "b b";
+  }
   .pricing-card {
     width: 600px;
   }
   .pricing-wrapper {
+    color: #283739;
     flex-wrap: wrap;
     flex-direction: column;
   }
-}
+  #foot-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-areas:
+      "b"
+      "d"
+      "c"
+      "a";
+    height: 100%;
+  }
 
+  .SiteMap-container .help .comunity-forum .newsletter {
+    border-bottom: 4px solid #a2c11c;
+  }
+}
 @media screen and (max-width: 1031px) {
   .navhead {
     justify-content: space-evenly;
@@ -111,5 +195,36 @@
   .qualification-wrapper {
     height: auto;
     padding-left: 5%;
+  }
+  #programs {
+    height: 100%;
+  }
+  .programs-wrapper {
+    height: 100%;
+    padding-bottom: 10%;
+  }
+  .grid-container2 {
+    grid-template-rows: 150px 400px 500px;
+  }
+  #our-team {
+    grid-template-rows: 100px 450px auto;
+    grid-template-areas:
+      "b b b"
+      ". . ."
+      "c c c";
+    background-size: 50%;
+    background-position: 50% 20%;
+    padding-bottom: 50px;
+  }
+  .team-wrapper {
+    width: 100%;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: row;
+  }
+  .team-card {
+    width: 150px;
+    height: 450px;
   }
 }

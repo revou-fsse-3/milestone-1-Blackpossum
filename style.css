@@ -1,5 +1,6 @@
 * {
   margin: 0%;
+  padding: 0%;
 }
 
 :root {
@@ -166,7 +167,7 @@ a {
   width: 100%;
   height: 1000px;
   background-image: url(assets/avatar4.webp);
-
+  background-size: 70%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -238,6 +239,7 @@ a {
   font-size: 100px;
 }
 .wrapper-section {
+  width: inherit;
   grid-area: b;
   text-align: center;
   padding: 20px;
@@ -287,7 +289,7 @@ a {
   justify-content: space-between;
   background-color: #283739;
   color: #e0e0e0;
-  width: 450px;
+  width: 100%;
   height: 600px;
   padding: 20px;
   margin: 10px;
@@ -495,10 +497,11 @@ a {
 
 /* our team Section */
 #our-team {
-  padding-top: 50px;
+  height: 100%;
+  padding: 0px 0px 50px 0px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 100px 800px;
+  grid-template-rows: 300px auto;
   grid-template-areas:
     ". b ."
     ". c c";
@@ -527,25 +530,11 @@ a {
 .Team-wrapper {
   display: flex;
   align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
   grid-area: c;
-  width: 90%;
-  padding-top: 50px;
-}
-.team-card {
-  display: flex;
-  background-color: white;
-  color: black;
-  flex-direction: column;
-  width: 200px;
-  height: 50%;
-  gap: 10px;
-  padding: 30px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  box-shadow: 0px 8px 5px 0 rgba(0, 0, 0, 0.5);
-  border-color: 5px solid white;
-  border-radius: 10px;
+  width: 100%;
 }
 .team-card > .profile > p {
   font-size: 50px;
@@ -561,7 +550,7 @@ a {
   color: black;
   flex-direction: column;
   width: 200px;
-  height: 60%;
+  height: 400px;
   gap: 10px;
   padding: 30px;
   box-shadow: 0px 8px 5px 0 rgba(0, 0, 0, 0.5);
@@ -583,6 +572,12 @@ a {
 
 /* Pricing Section Styles */
 #pricingplan {
+  display: grid;
+  grid-template-columns: 500px auto;
+  grid-template-rows: 100px 400px;
+  grid-template-areas:
+    "a a"
+    ". b";
   background-image: url(assets/Pricing\ plans-amico.svg);
   background-repeat: no-repeat;
   background-color: var(--accent-color);
@@ -592,13 +587,17 @@ a {
 }
 
 .pricing-wrapper {
+  grid-area: b;
   display: flex;
-  justify-content: space-around;
-  max-width: 1200px;
+  justify-content: flex-end;
+  width: 100%;
   margin: 0 auto;
 }
 
 .pricing-list {
+  color: var(--primary-bg);
+  text-align: center;
+  grid-area: a;
   font-size: 2em;
   margin-bottom: 30px;
 }
@@ -609,7 +608,7 @@ a {
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  width: 300px;
+  width: 25%;
   box-sizing: border-box;
   transition: hover 5s ease-in-out;
 }
