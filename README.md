@@ -6,6 +6,7 @@
 > this is a Milestone project for FSSE programs, batch 3 section seoul
 
 ## Company Profile Project
+![website_link](https://deploy-preview-7--playful-semolina-6c6d91.netlify.app/)
 
 this Milestone project, I will build and deploy a Company profile Website for English Course education platform called **ASTERIA ACADEMY\_**
 however this is a standard project with only use HTML ,CSS and vanila Javascript and no frameworks in used, if you interesting of doing colaboration or developing, you can fork this repository or find me on :
