@@ -229,7 +229,7 @@ a {
   margin-top: 50px;
   gap: 10px;
   display: grid;
-  grid-template-columns: 1fr 1024px 1fr;
+  grid-template-columns: 1fr 800px 1fr;
   grid-template-areas: " a b c";
 }
 .section-heading {
