@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
   #line {
-    width: 450px;
+    width: 350px;
     font-size: smaller;
   }
   .hero-banner {
@@ -136,6 +136,8 @@
   }
 
   #hamburger img {
+    height: 100px;
+    width: 100px;
     cursor: pointer;
   }
   #hamburger {
