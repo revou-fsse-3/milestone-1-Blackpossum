@@ -96,4 +96,20 @@
     right: 240px;
     cursor: pointer;
   }
+  /* responsive section */
+  #qualification {
+    height: 100%;
+    background-size: 50%;
+    background-position: 50% 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 95px 350px auto;
+    grid-template-areas:
+      "a"
+      "."
+      "b";
+  }
+  .qualification-wrapper {
+    height: auto;
+    padding-left: 5%;
+  }
 }
