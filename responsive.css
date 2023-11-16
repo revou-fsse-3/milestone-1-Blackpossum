@@ -1,10 +1,14 @@
 @media screen and (max-width: 600px) {
   #line {
-    width: 300px;
+    width: 450px;
     font-size: smaller;
   }
-  .hero-banner > .description {
-    display: none;
+  .hero-banner {
+    width: 100%;
+    justify-content: space-around;
+    background-position: 40% 50%;
+    padding-bottom: 40px;
+    flex-direction: column;
   }
   #heading {
     font-size: medium;
@@ -31,6 +35,9 @@
       "b"
       "c"
       "d";
+  }
+  .contact-us {
+    padding-left: 0;
   }
 }
 
@@ -104,6 +111,7 @@
 }
 @media screen and (max-width: 1031px) {
   .navhead {
+    padding-left: 40px;
     justify-content: space-evenly;
     align-items: center;
   }
@@ -128,6 +136,12 @@
   }
 
   #hamburger img {
+    cursor: pointer;
+  }
+  #hamburger {
+    display: inline-block;
+    position: absolute;
+    left: 15px;
     cursor: pointer;
   }
 
@@ -174,12 +188,7 @@
   .member {
     right: 500px;
   }
-  #hamburger {
-    display: block;
-    position: absolute;
-    right: 240px;
-    cursor: pointer;
-  }
+
   /* responsive section */
   #qualification {
     height: 100%;
