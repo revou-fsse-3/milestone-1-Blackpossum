@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 984px) {
   #about {
-    grid-template-columns: 100%;
+    grid-template-columns: 800;
     grid-template-areas:
       "a"
       "."
@@ -74,8 +74,8 @@
   }
   #about-card1,
   #about-card2 {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
   }
 
   #pricingplan {
