@@ -6,13 +6,19 @@
 > this is a Milestone project for FSSE programs, batch 3 section seoul
 
 ## Company Profile Project
-here is the preview link https://deploy-preview-7--playful-semolina-6c6d91.netlify.app/)
+here is the preview link https://deploy-preview-7--playful-semolina-6c6d91.netlify.app/
 
 this Milestone project, I will build and deploy a Company profile Website for English Course education platform called **ASTERIA_edu_**
 however this is a standard project with only use HTML ,CSS and vanila Javascript and no frameworks in used, if you interesting of doing colaboration or developing, you can fork this repository or find me on :
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yosaphat-harwindra-82aa54194/)[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Blackpossum)[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZbjsDVTCHvCnhHCvtfKVrVdgTsRsWdQPFjXBQKhnBbkKpCFNzsDmKZzVwtrmbMpzzNdtL)
 
 ## Creation process
 this web site took me about 5 days to created, i only use stadard languagge fir this website, this is the asset and web that i used :
+ this is how i progressing :
+![progress](/assets/progress%20.png)
+![progress](/assets/progress%204.png)
+
+
 #### programing 
  * __language i used__:
     - `HTML`
@@ -22,6 +28,11 @@ this web site took me about 5 days to created, i only use stadard languagge fir 
     - __image :__ Unsplash Website  
     - __font__ - Google Apis
     - __icons and ilustration__ - flaticon ,  font awesome, frontended
+
+#### __color pallete__
+
+![color palete](/assets/color%20pallete%20.png)
+
 ## contribute & develop
 1. Open your Terminal And locate Your local destination directory for Cloning process
 ``` 
@@ -90,4 +101,4 @@ if the verification completed, you should se the section content change to this
 
 
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yosaphat-harwindra-82aa54194/)[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Blackpossum)[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZbjsDVTCHvCnhHCvtfKVrVdgTsRsWdQPFjXBQKhnBbkKpCFNzsDmKZzVwtrmbMpzzNdtL)
+
