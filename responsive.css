@@ -1,4 +1,49 @@
+@media screen and (max-width: 400px) {
+  #signup {
+    width: 60px;
+    height: 40px;
+    font-size: small;
+  }
+  #sigin {
+    font-size: small;
+  }
+  #about {
+    grid-template-columns: 1fr;
+  }
+  .grid-container2 {
+    grid-template-rows: 200px 400px 400px 400px 400px;
+  }
+  #programs {
+    padding-bottom: 40px;
+  }
+  #qualification {
+    background-size: 70%;
+    background-position: 50% 50px;
+    padding-bottom: 50px;
+  }
+  #our-team {
+    grid-template-rows: 100px 200px auto;
+  }
+  .team-card {
+    width: 70%;
+  }
+  #content-wrapper {
+    font-size: smaller;
+  }
+  .navbar .dropdown &:hover .drop-content {
+    width: 250px;
+  }
+  #hamburger {
+    font-size: x-large;
+  }
+  footer {
+    height: 1500px;
+  }
+}
 @media screen and (max-width: 600px) {
+  #about {
+    grid-template-columns: 1fr;
+  }
   #line {
     width: 350px;
     font-size: smaller;
@@ -6,7 +51,7 @@
   .hero-banner {
     width: 100%;
     justify-content: space-around;
-    background-position: 40% 50%;
+    background-position: 50% 30%;
     padding-bottom: 40px;
     flex-direction: column;
   }
@@ -36,14 +81,11 @@
       "c"
       "d";
   }
-  .contact-us {
-    padding-left: 0;
-  }
 }
 
 @media screen and (max-width: 984px) {
   #about {
-    grid-template-columns: 800;
+    grid-template-columns: 1fr;
     grid-template-areas:
       "a"
       "."
@@ -108,7 +150,12 @@
   .SiteMap-container .help .comunity-forum .newsletter {
     border-bottom: 4px solid #a2c11c;
   }
+
+  .contact-us {
+    padding-left: 0;
+  }
 }
+
 @media screen and (max-width: 1031px) {
   .navhead {
     padding-left: 40px;
@@ -194,8 +241,6 @@
   /* responsive section */
   #qualification {
     height: 100%;
-    background-size: 50%;
-    background-position: 50% 0;
     grid-template-columns: 1fr;
     grid-template-rows: 95px 350px auto;
     grid-template-areas:
@@ -218,7 +263,6 @@
     grid-template-rows: 150px 400px 500px;
   }
   #our-team {
-    grid-template-rows: 100px 450px auto;
     grid-template-areas:
       "b b b"
       ". . ."
@@ -235,7 +279,6 @@
     flex-direction: row;
   }
   .team-card {
-    width: 150px;
     height: 450px;
   }
 }
